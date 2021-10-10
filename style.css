@@ -1,8 +1,46 @@
-.inline {
-  background: red;
-  width: 210px;
-  padding: 10px;
+body {
+  color: midnightblue;
+  background-color: whitesmoke;
+  font-family: "Lato", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.zielony {
+  color: #10f74f;
 }
 
-.block {
+.zielony a {
+  color: #10f74f;
+}
+.hire-me {
+  background-color: midnightblue;
+  color: whitesmoke;
+  padding: 10px 30px;
+  border-radius: 15px;
+}
+.portfolio {
+  padding: 10px 30px;
+  border-color: midnightblue;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 15px;
+}
+.bold {
+  font-weight: 900;
+}
+.regular {
+  font-weight: normal;
+}
+.my-face {
+  border-radius: 0 0 0 100px;
+  box-shadow: 30px -40px 0px midnightblue, -3px 3px 5px grey;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.main {
+}
+.left {
 }
